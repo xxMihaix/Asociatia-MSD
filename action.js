@@ -188,29 +188,6 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 })
 
-
-function donoTop() {
-    const btn = document.querySelectorAll('.svg-button');
-
-    btn.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            e.preventDefault();
-
-            const target = document.getElementById('center-all');
-            const offset = 135;
-
-            const position = target.getBoundingClientRect().top + window.pageYOffset - offset;
-
-            window.scrollTo({
-                top: position,
-                behavior: 'smooth'
-            })
-        })
-    })
-}
-
-donoTop();
-
 /******** El **********/
 
 const elements = [
@@ -283,3 +260,25 @@ function renderEl(){
 }
 
 renderEl()
+
+function donoTop() {
+    const btn = document.querySelectorAll('.svg-button');
+
+    btn.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            const target = document.getElementById('center-all');
+            const offset = 135;
+
+            const position = target.getBoundingClientRect().top + window.pageYOffset - offset;
+
+            window.scrollTo({
+                top: position,
+                behavior: 'smooth'
+            })
+        })
+    })
+}
+
+donoTop();
