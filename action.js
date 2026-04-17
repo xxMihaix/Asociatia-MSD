@@ -210,3 +210,76 @@ function donoTop() {
 }
 
 donoTop();
+
+/******** El **********/
+
+const elements = [
+    {
+        name: 'Cadouri',
+        description: 'Bucurii oferite copiilor din comunități defavorizate.',
+        number: '600+',
+        img: '/images/cards/1.png'
+    },
+    {
+        name: 'Saci cu haine',
+        description: 'Haine în stare bună pentru copii și adulți nevoiași.',
+        number: '700+',
+        img: '/images/cards/2.png'
+    },
+    {
+        name: 'Borcane Gem',
+        description: 'Ajutor alimentar oferit familiilor din zone defavorizate.',
+        number: '1700+',
+        img: '/images/cards/3.png'
+    },
+    {
+        name: 'Biblii oferite',
+        description: 'Sprijin spiritual pentru copii și familii.',
+        number: '500+',
+        img: '/images/cards/4.png'
+    },
+    {
+        name: 'Pachete Aliment',
+        description: 'Produse esențiale pentru familii aflate în nevoie.',
+        number: '200+',
+        img: '/images/cards/5.png'
+    },
+    {
+        name: 'Sarmale oferite',
+        description: 'Mese calde pregătite pentru persoane nevoiașe.',
+        number: '2000+',
+        img: '/images/cards/6.png'
+    },
+    {
+        name: 'Pungi Dulciuri',
+        description: 'Mici bucurii oferite copiilor.',
+        number: '250+',
+        img: '/images/cards/7.png'
+    }
+];
+
+function renderEl(){
+
+    const container = document.querySelector('.ajutor-svg-container');
+    container.innerHTML = '';
+
+    elements.forEach(el => {
+        const span = `<div class="el-span">
+                        <div class="top-el">
+                            <div class="img-cont">
+                                <img src="${el.img}">
+                            </div>
+                            <p class="number">${el.number}</p>
+                        </div>
+                        <div class="bottom-el">
+                            <p class="name">${el.name}</p>
+                            <p>${el.description}</p>
+                            <button class="svg-button">Doneaza</button>
+                        </div>
+                    </div>`
+        
+        container.innerHTML += span;
+    })
+}
+
+renderEl()

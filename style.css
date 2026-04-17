@@ -484,39 +484,14 @@ html, body{
 
 
 .ajutor-svg-container{
-    max-width: 1000px;
+    max-width: 1100px;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    display: flex;
+    gap: 20px;
     padding: 20px;
-    box-sizing: border-box;
+    overflow-x: scroll;
 }
 
-
-@media (max-width: 900px){
-    .ajutor-svg-container{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 630px){
-    .ajutor-svg-container{
-        margin-top: 20px;
-    }
-}
-
-@media (max-width: 480px){
-    .ajutor-svg-container{
-        grid-template-columns: 1fr;
-        padding: 20px 0;
-        gap: 16px;
-    }
-
-    #hide1, #hide4{
-        display: none;
-    }
-}
 
 .ajutor-svg{
     background-color: #f3f2f1;
@@ -587,24 +562,6 @@ html, body{
     text-align: center;
     align-items: center;
     padding-top: 10px;
-}
-
-.svg-button{
-    width: 90%;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 10px;
-    background-color: #dc1780;
-    cursor: pointer;
-    transition: 0.3s;
-    color: white
-}
-
-.svg-button:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
 }
 
 /*********************/
@@ -700,12 +657,27 @@ html, body{
     color: black;
     font-weight: bold;
     font-size: 30px;
+    margin-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
+}
+
+.title3{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
     text-align: center;
 }
 
 .title2{
     padding: 0px;
+}
+
+.proiect-tit{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
 }
 
 @media(max-width: 700px){
@@ -892,7 +864,8 @@ html, body{
 }
 
 .project-container{
-    border-radius: 15px;
+    border-radius: 17px;
+    border: 2px solid #cfcfcf;
 }
 
 @media( 360px < width < 620px){
@@ -1022,7 +995,7 @@ html, body{
 /*************** Donatii *****************/
 
 .donation-title{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #dono-section{
@@ -1310,3 +1283,116 @@ textarea{
     color: white;
 }
 
+
+
+.ajutor-oferit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+/******** Card ********/
+
+.el-span{
+    min-width: 250px;
+    background-color: #f3f2f1;
+    border: 2px solid #cfcfcf;
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 12px;
+    position: relative;
+    padding-bottom: 45px;
+}
+
+.top-el{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.img-cont{
+    aspect-ratio: 1/1;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid #cfcfcf;
+}
+
+.img-cont img{
+    width: 100%;
+    height: 100%;
+}
+
+.number{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: white;
+    text-shadow:
+    2px 0 0 rgba(0,0,0,0.8),
+   -2px 0 0 rgba(0,0,0,0.8),
+    0 2px 0 rgba(0,0,0,0.8),
+    0 -2px 0 rgba(0,0,0,0.8),
+    2px 2px 0 rgba(0,0,0,0.8),
+   -2px 2px 0 rgba(0,0,0,0.8),
+    2px -2px 0 rgba(0,0,0,0.8),
+   -2px -2px 0 rgba(0,0,0,0.8);
+}
+
+.bottom-el{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #fa0688;
+    text-shadow:
+    2px 0 0 rgba(0,0,0,0.8),
+   -2px 0 0 rgba(0,0,0,0.8),
+    0 2px 0 rgba(0,0,0,0.8),
+    0 -2px 0 rgba(0,0,0,0.8),
+    2px 2px 0 rgba(0,0,0,0.8),
+   -2px 2px 0 rgba(0,0,0,0.8),
+    2px -2px 0 rgba(0,0,0,0.8),
+   -2px -2px 0 rgba(0,0,0,0.8);
+}
+
+.svg-button{
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #dc1780;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+
+.svg-button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+
+
+
+/*#dc1780*/
