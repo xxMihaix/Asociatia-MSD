@@ -156,5 +156,28 @@ export const proiecte = [
         { img6: 'https://i.postimg.cc/QMbKbhgd/6.jpg' }
     ]
     },
-    
+    {
+    nume: "🍭 Dulciuri Oferite",
+    descriere: "Am reușit să aducem zâmbete pe chipurile celor mici prin pachete pline cu dulciuri și surprize, dăruite copiilor din medii vulnerabile. Acest proiect s-a transformat într-o mărturie vie a bunătății divine, oferind un strop de fericire caldă și alungând gustul amar al neajunsurilor.",
+    imagini: [
+        { "img1": "https://i.postimg.cc/Xv8YcYJS/Screenshot-2026-06-18-115640.png" },
+        { "img2": "https://i.postimg.cc/9fRrVhFh/Screenshot-2026-06-18-121010.png" },
+        { "img3": "https://i.postimg.cc/pV8XqCyX/Screenshot-2026-06-18-115149.png" },
+        { "img4": "https://i.postimg.cc/mg9vGpft/Screenshot-2026-06-18-121301.png" },
+        { "img5": "https://i.postimg.cc/RFSyKM3X/Screenshot-2026-06-18-121310.png" },
+        { "img6": "https://i.postimg.cc/Kcsw3hm1/Screenshot-2026-06-18-121321.png" }
+    ]
+    },
+    {
+    nume: "🏡 Casa Renovată",
+    descriere: "Ne unim forțele pentru a transforma locuințe degradate în cămine sigure, calde și demne pentru familiile aflate în cumpănă. Suntem uneltele prin care dragostea lui Dumnezeu se vede la lucru, așezând o temelie nouă și reconstruind speranța acolo unde zidurile vechi stăteau să cadă.",
+    imagini: [
+        { "img1": "https://i.postimg.cc/m2YfF6kd/Screenshot-2026-06-18-115237.png" },
+        { "img2": "https://i.postimg.cc/VLY4D74g/Screenshot-2026-06-18-115320.png" },
+        { "img3": "https://i.postimg.cc/hjLb0xmP/Screenshot-2026-06-18-115339.png" },
+        { "img4": "https://i.postimg.cc/h401zLg6/Screenshot-2026-06-18-115352.png" },
+        { "img5": "https://i.postimg.cc/0yzYBhST/Screenshot-2026-06-18-115411.png" },
+        { "img6": "https://i.postimg.cc/cHSf6HzS/Screenshot-2026-06-18-115432.png" }
+    ]
+}
 ]

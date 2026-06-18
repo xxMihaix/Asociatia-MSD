@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', function(){
         {id: 11,  title: `${proiecte[10].nume}`, des: `${proiecte[10].descriere}`, image: 'images/proiecte/Cartofi.png'},
         {id: 12,  title: `${proiecte[11].nume}`, des: `${proiecte[11].descriere}`, image: 'images/proiecte/Hala.png'},
         {id: 13,  title: `${proiecte[12].nume}`, des: `${proiecte[12].descriere}`, image: 'images/proiecte/fii.png'},
+        {id: 14,  title: `${proiecte[13].nume}`, des: `${proiecte[13].descriere}`, image: 'images/proiecte/Dulciuri Oferite.png'},
+        {id: 15,  title: `${proiecte[14].nume}`, des: `${proiecte[14].descriere}`, image: 'images/proiecte/Casa Renovata.png'},
     ]
 
     const proiecteContainer = document.getElementById('project-container-all');
@@ -56,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const showContent1 = document.querySelectorAll('#pr1, #pr2, #pr3');
     const showContent2 = document.querySelectorAll('#pr4, #pr5, #pr6');
     const showContent3 = document.querySelectorAll('#pr7, #pr8, #pr9');
-    const showContent4 = document.querySelectorAll('#pr10, #pr11, #pr12, #pr13');
+    const showContent4 = document.querySelectorAll('#pr10, #pr11, #pr12, #pr13, #pr14, #pr15');
     const screenWidth = window.innerWidth;
     let step = 0;
 
@@ -200,7 +202,7 @@ const elements = [
     {
         name: 'Saci cu haine',
         description: 'Haine în stare bună pentru copii și adulți nevoiași.',
-        number: '700+',
+        number: '900+',
         img: '/images/cards/2.png'
     },
     {
@@ -218,20 +220,26 @@ const elements = [
     {
         name: 'Pachete Aliment',
         description: 'Produse esențiale pentru familii aflate în nevoie.',
-        number: '200+',
+        number: '350+',
         img: '/images/cards/5.png'
     },
     {
         name: 'Sarmale oferite',
         description: 'Mese calde pregătite pentru persoane nevoiașe.',
-        number: '2000+',
+        number: '4500+',
         img: '/images/cards/6.png'
     },
     {
         name: 'Pungi Dulciuri',
         description: 'Mici bucurii oferite copiilor.',
-        number: '250+',
+        number: '450+',
         img: '/images/cards/7.png'
+    },
+    {
+        name: 'Case Renovate',
+        description: 'Case reabilitate gata de locuit.',
+        number: '1+',
+        img: '/images/cards/8.png'
     }
 ];
 
